@@ -26,10 +26,56 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Specifications
+
+- Fazer as intalações.
+- Criar um banco de dados: create database EMPRESA;
+- Em '.env' deve colocar os dados de acesso do seu MySQL.
+
 ## Installation
 
 ```bash
 $ npm install
+```
+
+## Installed
+
+```bash
++-- @nestjs/cli@9.0.0
++-- @nestjs/common@9.0.7
++-- @nestjs/config@2.2.0
++-- @nestjs/core@9.0.7
++-- @nestjs/platform-express@9.0.7
++-- @nestjs/schematics@9.0.1
++-- @nestjs/sequelize@9.0.0
++-- @nestjs/testing@9.0.7
++-- @types/express@4.17.13
++-- @types/jest@28.1.4
++-- @types/node@16.11.47
++-- @types/sequelize@4.28.14
++-- @types/supertest@2.0.12
++-- @types/validator@13.7.4
++-- @typescript-eslint/eslint-plugin@5.31.0
++-- @typescript-eslint/parser@5.31.0
++-- eslint-config-prettier@8.5.0
++-- eslint-plugin-prettier@4.2.1
++-- eslint@8.20.0
++-- jest@28.1.2
++-- mysql2@2.3.3
++-- prettier@2.7.1
++-- reflect-metadata@0.1.13
++-- rimraf@3.0.2
++-- rxjs@7.5.6
++-- sequelize-typescript@2.1.3
++-- sequelize@6.21.3
++-- source-map-support@0.5.21
++-- supertest@6.2.4
++-- ts-jest@28.0.5
++-- ts-loader@9.3.1
++-- ts-node@10.9.1
++-- tsconfig-paths@4.0.0
++-- typescript-type-transformer@2.3.0
+`-- typescript@4.7.4
 ```
 
 ## Running the app
@@ -45,28 +91,10 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
